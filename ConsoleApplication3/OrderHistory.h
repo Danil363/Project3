@@ -3,14 +3,15 @@
 
 #include "Order.h"
 #include <vector>
+#include <memory>
 
 class OrderHistory {
 private:
-    std::vector<Order> orders;
+    std::vector<std::shared_ptr<Order>> orders; // Вектор умных указателей на заказы
 
 public:
-    void addOrder(const Order& order);
-    void displayHistory() const;
+    void addOrder(const std::shared_ptr<Order>& order); // Добавление заказа
+    void displayHistory() const; // Отображение истории заказов
 };
 
 #endif // ORDER_HISTORY_H

@@ -1,0 +1,14 @@
+﻿  Admin.cpp
+  Cart.cpp
+  Clothing.cpp
+  Electronics.cpp
+  Grocery.cpp
+  HeapSort.cpp
+C:\Users\Данил\source\repos\Project3\ConsoleApplication3\HeapSort.cpp(21,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  main.cpp
+  Customer.cpp
+  Order.cpp
+  OrderHistory.cpp
+  Product.cpp
+  Создание кода...
+  ConsoleApplication3.vcxproj -> C:\Users\Данил\source\repos\Project3\x64\Debug\ConsoleApplication3.exe

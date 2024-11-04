@@ -129,8 +129,11 @@
   <ItemGroup>
     <ClCompile Include="Admin.cpp" />
     <ClCompile Include="Cart.cpp" />
-    <ClCompile Include="Category.cpp" />
+    <ClCompile Include="Clothing.cpp" />
     <ClCompile Include="Discount.cpp" />
+    <ClCompile Include="Electronics.cpp" />
+    <ClCompile Include="Grocery.cpp" />
+    <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Customer.cpp" />
     <ClCompile Include="Order.cpp" />
@@ -142,9 +145,12 @@
   <ItemGroup>
     <ClInclude Include="Admin.h" />
     <ClInclude Include="Cart.h" />
-    <ClInclude Include="Category.h" />
+    <ClInclude Include="Clothing.h" />
     <ClInclude Include="Customer.h" />
     <ClInclude Include="Discount.h" />
+    <ClInclude Include="Electronics.h" />
+    <ClInclude Include="Grocery.h" />
+    <ClInclude Include="HeapSort.h" />
     <ClInclude Include="Order.h" />
     <ClInclude Include="OrderHistory.h" />
     <ClInclude Include="Product.h" />

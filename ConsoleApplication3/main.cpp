@@ -3,17 +3,34 @@
 #include "Product.h"
 #include "Customer.h"
 #include "Admin.h"
-
+#include "HeapSort.h" 
 #include "OrderHistory.h"
+#include "Electronics.h"
+#include "Clothing.h"
+#include "Grocery.h"
 
 int main() {
-    std::vector<Product> products;
     std::vector<Order> orders;
     std::vector<User*> users;  // Зберігаємо користувачів
     OrderHistory orderHistory;
 
-    // Завантажуємо дані з файлів
+    std::vector<Product*> products;
 
+    products.push_back(new Electronics("Телефон", 15000, 10, "Сучасний смартфон"));
+    products.push_back(new Clothing("Футболка", 500, 50, "Котонова футболка"));
+    products.push_back(new Grocery("Хліб", 30, 100, "Свіжий хліб"));
+
+    heapSort(products);
+
+    std::cout << "Товари, відсортовані за ціною:\n";
+    for (const auto& product : products) {
+        std::cout << product->getName() << " (" << product->getCategory() << ") - "
+            << product->getPrice() << " грн\n";
+    }
+
+    for (auto product : products) {
+        delete product;
+    }
 
     // Реєстрація та авторизація
     std::string username, password;

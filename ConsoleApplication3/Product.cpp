@@ -1,9 +1,10 @@
 #include "Product.h"
 #include <iostream>
 
+
 // Конструктор
-Product::Product(int id, std::string name, double price, int quantity, std::string description)
-    : id(id), name(name), price(price), quantity(quantity), description(description) {}
+Product::Product( std::string name, double price, int quantity, std::string description )
+    :  name(name), price(price), quantity(quantity), description(description) {}
 
 // Методи доступу
 std::string Product::getName() const { return name; }
@@ -16,9 +17,13 @@ void Product::updateQuantity(int newQuantity) {
     quantity = newQuantity;
 }
 
+void Product::setQuantity(int newQuantity) {
+    quantity = newQuantity;
+}
+
 // Виведення інформації про товар
 void Product::displayProductInfo() const {
-    std::cout << "ID: " << id << ", Назва: " << name
+    std::cout <<  " Назва: " << name
         << ", Ціна: " << price << ", Кількість: " << quantity
         << ", Опис: " << description << std::endl;
 }

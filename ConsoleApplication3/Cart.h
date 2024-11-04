@@ -1,20 +1,20 @@
-
 #ifndef CART_H
 #define CART_H
 
 #include "Product.h"
 #include <vector>
+#include <memory> // для std::unique_ptr
 
 class Cart {
 private:
-    std::vector<std::pair<Product, int>> items;
+    std::vector<std::pair<std::unique_ptr<Product>, int>> items; // пара: товар и его количество
 
 public:
-    void addItem(Product& product, int quantity);
+    void addItem(std::unique_ptr<Product> product, int quantity);
     void removeItem(int index);
     double calculateTotal() const;
     void displayCart() const;
     void clearCart();
 };
 
-#endif
+#endif // CART_H
