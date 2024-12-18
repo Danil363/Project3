@@ -1,0 +1,15 @@
+#pushButton {
+    background-color:rgb(192, 0, 250);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#pushButton:hover {
+    background-color:rgb(0, 238, 255);
+}
+
+#pushButton:pressed {
+    background-color:rgb(255, 255, 255);
+}

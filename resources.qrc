@@ -1,0 +1,73 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>Logo.jpg</file>
+        <file>Logo1.jpg</file>
+        <file>OS.PNG</file>
+        <file>Back1.png</file>
+        <file>Back_main.jpg</file>
+    </qresource>
+    <qresource prefix="/clothes">
+        <file>Jeans.png</file>
+        <file>Zipka.png</file>
+        <file>Keds.png</file>
+        <file>Sneakers.png</file>
+        <file>Jacket.png</file>
+        <file>Panama.png</file>
+        <file>T-shirt.png</file>
+        <file>Cap.png</file>
+        <file>Shorts.png</file>
+    </qresource>
+    <qresource prefix="/pet_supplies"/>
+    <qresource prefix="/pet">
+        <file>Igrashka.png</file>
+        <file>Korm_dlya_kotiv.png</file>
+        <file>Korm_dlya_popug.png</file>
+        <file>Korm_dlya_sobak.png</file>
+        <file>Miska.png</file>
+        <file>Povodok.png</file>
+    </qresource>
+    <qresource prefix="/electronics">
+        <file>Iphone.png</file>
+        <file>Kamera.png</file>
+        <file>Macbook.png</file>
+        <file>Photoapparat.png</file>
+        <file>Samsung.png</file>
+        <file>Xiaomi.png</file>
+        <file>Lenovo.png</file>
+    </qresource>
+    <qresource prefix="/products">
+        <file>Moloko.png</file>
+        <file>Pizza.png</file>
+        <file>Sik.png</file>
+        <file>Smetana.png</file>
+        <file>Snickers.png</file>
+        <file>Tomati.png</file>
+        <file>Tsukor.png</file>
+    </qresource>
+    <qresource prefix="/equipment">
+        <file>Chainik.png</file>
+        <file>Holodilnik.png</file>
+        <file>Mikrohvilyovka.png</file>
+        <file>Pechka.png</file>
+        <file>Pilosos.png</file>
+        <file>Stiralna_mahsinka.png</file>
+        <file>Utug.png</file>
+    </qresource>
+    <qresource prefix="/plumbing">
+        <file>Filtr.png</file>
+        <file>Kluch_rozv.png</file>
+        <file>Kran.png</file>
+        <file>Kran2.png</file>
+        <file>Lichilnik.png</file>
+        <file>Truba.png</file>
+    </qresource>
+    <qresource prefix="/item_for_home">
+        <file>Krujka.png</file>
+        <file>Nabir_lojok_i_bydelok.png</file>
+        <file>Pled.png</file>
+        <file>Podushki.png</file>
+        <file>Skovoridka.png</file>
+        <file>Zasib_dlya_mittya_posudu.png</file>
+        <file>Zasib_dlya_prannya.png</file>
+    </qresource>
+</RCC>
